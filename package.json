@@ -25,19 +25,19 @@
   "bin": {
     "sifter": "./bin/sifter.js"
   },
-  "dependencies": {
-    "optimist": "^0.6.1",
-    "cardinal": "^1.0.0",
-    "async": "^2.6.0",
-    "humanize": "^0.0.9",
-    "csv-parse": "^2.0.0"
+  "dependencies": {},
+  "peerDependencies": {
+    "optimist": ">=0.6.1",
+    "cardinal": ">=1.0.0",
+    "async": ">=2.6.0",
+    "humanize": ">=0.0.9",
+    "csv-parse": ">=4.4.7"
   },
   "devDependencies": {
     "coveralls": "^3.0.0",
-    "istanbul": "^0.4.5",
     "mocha": "^4.0.1",
-    "mocha-istanbul": "^0.3.0",
     "mocha-lcov-reporter": "^1.3.0",
-    "uglify-js": "^3.2.0"
+    "nyc": "^14.1.1",
+    "uglify-js": "^3.6.0"
   }
 }
