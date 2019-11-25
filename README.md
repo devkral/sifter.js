@@ -14,8 +14,7 @@ Sifter is a client and server-side library (via [UMD](https://github.com/umdjs/u
 * **Nested properties.**<br>Allows to search and sort on nested properties so you can perform search on complex objects without flattening them simply by using dot-notation to reference fields (ie. `nested.property`).
 
 ```sh
-$ npm install sifter # node.js
-$ bower install sifter # browser
+$ npm install @devkral/sifter # node.js
 ```
 
 ## Usage
