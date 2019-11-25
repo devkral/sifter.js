@@ -3,7 +3,7 @@
 MOCHA=node_modules/.bin/mocha
 COVERALLS=node_modules/.bin/coveralls
 _MOCHA=node_modules/.bin/_mocha
-ISTANBUL=node_modules/.bin/nyc
+NYC=node_modules/.bin/nyc
 UGLIFYJS=node_modules/.bin/uglifyjs
 
 OUT=sifter.js
@@ -23,7 +23,7 @@ test-ci:
 
 test-ci-coverage:
 	@rm -rf coverage
-	$(ISTANBUL) cover $(_MOCHA) --report lcovonly -- -R tap
+	$(NYC) --reporter=lcov $(MOCHA) -R tap
 
 	@echo
 	@echo Sending report to coveralls.io...
