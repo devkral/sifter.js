@@ -1,7 +1,7 @@
 # sifter.js
 [![NPM version](http://img.shields.io/npm/v/@devkral/sifter.svg?style=flat)](https://www.npmjs.org/package/@devkral/sifter)
 [![Installs](http://img.shields.io/npm/dm/@devkral/sifter.svg?style=flat)](https://www.npmjs.org/package/@devkral/sifter)
-[![Build Status](https://travis-ci.org/devkral/sifter.js.svg)](https://travis-ci.org/devkral/sifter.js)
+[![Build Status](https://travis-ci.com/devkral/sifter.js.svg)](https://travis-ci.com/devkral/sifter.js)
 [![Coverage Status](http://img.shields.io/coveralls/devkral/sifter.js/master.svg?style=flat)](https://coveralls.io/r/devkral/sifter.js)
 
 Fork from brianreavis/sifter.js

@@ -2,7 +2,6 @@
 
 MOCHA=node_modules/.bin/mocha
 COVERALLS=node_modules/.bin/coveralls
-_MOCHA=node_modules/.bin/_mocha
 NYC=node_modules/.bin/nyc
 UGLIFYJS=node_modules/.bin/uglifyjs
 
