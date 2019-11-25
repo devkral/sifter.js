@@ -2,12 +2,12 @@
 	"name": "sifter",
 	"keywords": ["search","filter","sift","data","results","match","sort","autocomplete"],
 	"description": "A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.",
-	"version": "0.5.3",
+	"version": "0.6.0",
 	"license": "Apache License, Version 2.0",
 	"readmeFilename": "README.md",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/brianreavis/sifter.js.git"
+		"url": "https://github.com/devkral/sifter.js.git"
 	},
 	"main": ["sifter.js"],
 	"ignore": [

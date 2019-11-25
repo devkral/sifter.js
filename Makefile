@@ -3,12 +3,12 @@
 MOCHA=node_modules/.bin/mocha
 COVERALLS=node_modules/.bin/coveralls
 _MOCHA=node_modules/.bin/_mocha
-ISTANBUL=node_modules/.bin/istanbul
+ISTANBUL=node_modules/.bin/nyc
 UGLIFYJS=node_modules/.bin/uglifyjs
 
 OUT=sifter.js
 OUT_MIN=sifter.min.js
-BANNER=/*! sifter.js | https://github.com/brianreavis/sifter.js | Apache License (v2) */
+BANNER=/*! sifter.js | https://github.com/devkral/sifter.js | Apache License (v2) */
 
 all: compile
 

@@ -1,5 +1,5 @@
 {
-  "name": "sifter",
+  "name": "@devkral/sifter",
   "keywords": [
     "search",
     "filter",
@@ -11,13 +11,16 @@
     "autocomplete"
   ],
   "description": "A library for textually searching arrays and hashes of objects by property (or multiple properties). Designed specifically for autocomplete.",
-  "version": "0.5.3",
+  "version": "0.6.0",
   "license": "Apache-2.0",
-  "author": "Brian Reavis <brian@thirdroute.com>",
+  "author": "Alexander K. <devkral@web.de>",
+  "contributors": [
+    "Brian Reavis <brian@thirdroute.com>"
+  ],
   "main": "./sifter.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/brianreavis/sifter.js.git"
+    "url": "git+https://github.com/devkral/sifter.js.git"
   },
   "scripts": {
     "test": "mocha -R list"
@@ -39,5 +42,13 @@
     "mocha-lcov-reporter": "^1.3.0",
     "nyc": "^14.1.1",
     "uglify-js": "^3.7.0"
+  },
+  "bugs": {
+    "url": "https://github.com/devkral/sifter.js/issues"
+  },
+  "homepage": "https://github.com/devkral/sifter.js#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
   }
 }
